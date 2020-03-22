@@ -1,0 +1,33 @@
+body {
+	/*background-color: #FDFDFD;*/
+	margin:0;padding:0;
+	background-color:rgba(255,255,255,0); 
+}
+div,table{
+    background-color:rgba(255,255,255,0); 
+}
+label{
+    font-size: 15px;
+    color:#000;
+    text-shadow:5px 5px 5px #bc1717;
+}
+a{
+	text-decoration:none;color:#090000;
+}
+input:not(.btn),textarea{
+    background:rgba(255,255,255,0.2)!important;
+}
+td{
+	padding-left:8px;
+	/*background:rgba(255,255,255,0.2)!important;*/
+}
+h4{
+	margin: 10px;
+	text-align: center;
+	font-weight:bold;
+}
+.container-fluid form{
+	margin: 0 auto;
+}
+
+.tt{font-size:13px;text-align:left;font-weight:bold;background:url(../images/table_tt_bg.gif) left center repeat-x;border-top:none;height:28px;line-height:28px;}

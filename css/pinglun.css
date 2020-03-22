@@ -1,0 +1,57 @@
+p,ul,li{margin: 0; padding: 0; list-style: none;}
+/* 评论框 */
+.comment{width: 100%;height:200px;border-bottom:1px solid #c0c0c0; }
+.comment .head-face{width: 10%; height: 120px; float: left; text-align: center;}
+.comment .head-face img{width: 50px; height: 50px; border-radius: 50%;}
+.comment .head-face p{font-size: 12px; font-family: "微软雅黑";}
+.comment .content{width: 86%; height: 120px; margin: 0 auto;}
+.comment h4{
+	margin:25px;
+	text-align: center;
+	color: #060606;
+}
+.cancel{
+	/*border: 1px solid red;*/
+	/*float: right;*/
+	position: absolute;
+	left: 70%;
+	width: 100px;
+	/*bottom:-10%;*/
+}
+.note-edit-cancel{
+    border-radius:10px;
+	background-color: #ab1919;
+    border: none;
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.comment .note-edit-cancel{
+	margin-right: 280px;
+	margin-top: 106px;
+}
+.cont-box{ width: 100%; height: 96px; border: 1.2px solid #BC1717;border-radius: 8px;  float: left;box-sizing:border-box;overflow: hidden;}
+.cont-box .text{ width: 96.6%; height: 86.9%; border-radius: 5px;   padding: 5px 10px; color: #999; font-family: "微软雅黑"; font-size: 12px; resize:none; border: none;  outline: none; float: left;}
+
+/*.tools-box{ width: 100%; height: 30px; border: 1px solid #BC1717; margin-top: 5px; border-bottom-left-radius: 5px;  border-bottom-right-radius: 5px; float: left;}*/
+.tools-box .operator-box-btn{ width: 85%; height: 30px; float: left;  }
+.tools-box .operator-box-btn .face-icon{display: block; float: left; margin-top:-1px; margin-left: 10px; font-family: "微软雅黑"; font-size: 22px; color: #BC1717;  cursor: pointer;}
+.tools-box .operator-box-btn .img-icon{display: block; float: left; margin-top:-11px; margin-left: 10px; font-family: "微软雅黑"; font-size: 33px; font-weight: lighter; color: #BC1717; cursor: pointer;}
+.tools-box .submit-btn{ width: 15%; height: 30px;float: right; }
+
+.tools-box .submit-btn input{ width: 100%; height: 100%; margin-top:10px; border-radius: 10px; font-family: "微软雅黑"; font-size: 14px; color: #fff; cursor: pointer; border: none; outline: none; background-color: #BC1717;}
+
+/* 回复信息 */
+#info-show{float: left;  width: 100%; margin-top: 20px;}
+#info-show li{ width: 100%; height: auto; padding: 10px 0 20px 0; border-bottom: 1px dashed #c0c0c0; float: left;}
+#info-show .head-face{width: 10%;  float: left; text-align: center;}
+#info-show .head-face img{margin-left: 20px; width: 50px; height: 50px; border-radius: 50%; box-shadow: 0 0 8px #61190f;}
+
+#info-show .reply-cont{ width: 89%; padding-right: 1%; float: right;}
+#info-show .reply-cont  p{  font-weight: normal; min-height: 20px; line-height: 20px;  font-family: "微软雅黑"; font-size: 14px;}
+#info-show .reply-cont .username{ color: #BC1717; margin-bottom: 5px;}
+#info-show .reply-cont .comment-body{ color: #2f2828; max-height: auto;}
+#info-show .reply-cont .comment-footer{font-size: 12px; color: #c0c0c0; margin-top: 10px;float: right;}

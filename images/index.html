@@ -1,0 +1,555 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+<!--控制视口宽度，让页面以1:1比例渲染页面-->
+<title>首页</title>
+<link href="static/css/main.css" rel="stylesheet" type="text/css">
+<link href="static/css/aos.css" rel="stylesheet" type="text/css">
+<link href="static/css/kefu.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="static/js/jquery.superslide.2.1.1.js"></script>
+<script type="text/javascript" src="static/js/carousel.js"></script>
+<script type="text/javascript" src="static/js/me.js"></script>
+<script type="text/javascript" src="static/js/aos.js"></script>
+
+</head>
+
+<body>
+<div class="header fix">
+	<a class="logo" href="index.html"><img src="static/picture/1525859642.png"></a>
+     <div class="menu-box"><img src="static/picture/menu-1.png"></div>
+    <ul class="nav fix">
+    	<li><a href="index.html" class="select">首页</a></li>
+        <li>
+        	<a href="about.html">汉服知识</a>
+        	<div class="child-nav">
+            	<b class="bg-black"></b>  <!-- 背景色 -->
+            	<div class="red-box">
+                    <dl>
+                        <dd>
+                        	<a href="about.html">服装简介</a>
+                        	<dl>
+                            	<dd><a href="#">关于我们三级</a></dd>
+                            </dl>
+                        </dd>
+                        <dd><a href="about.html">服装制作</a></dd>
+                    </dl>
+                    <div class="spot">
+                    	<i></i>
+                    	<i></i>
+                    </div>  <!-- 小红点 -->
+                </div>
+            </div>
+        </li>
+        <li><a href="product.html">服装配饰</a></li>
+        <li><a href="news-list.html">新闻资讯</a></li>
+        <li><a href="product-list.html">服装展示</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+    </ul>
+</div>
+
+
+<div class="black-box">
+    <div class="nav-main">
+        <div class="nav-box">
+            <div class="nav-ce">
+                <ul class="nav-ul">
+                    <li><a href="index.html"><span>首页</span></a></li>
+                    <li><a href="about.html"><span>汉服知识</span></a></li>
+                    <li><a href="product.html"><span>服装配饰</span></a></li>
+                    <li><a href="news-list.html"><span>新闻资讯</span></a></li>
+                    <li><a href="product-list.html"><span>服装展示</span></a></li>
+                    <li><a href="contact.html"><span>联系我们</span></a></li>
+                </ul>
+            </div>
+            <div class="nav-slide">
+                <div class="nav-slide-o"></div>
+                <div class="nav-slide-o">
+                    <ul>
+                        <li><a href="#"><span>汉服简介</span>
+                        	<ul class="child-menu">
+                            	<li><a href="#"><span>汉服知识三级</span></a></li>
+                            </ul>
+                        </a></li>
+                        <li><a href="#"><span>汉服制作</span></a></li>
+                    </ul>
+                </div>
+                <div class="nav-slide-o"></div>
+                <div class="nav-slide-o">
+                    <ul>
+                        <li><a href="#"><span>汉服简介</span></a></li>
+                        <li><a href="#"><span>汉服制作</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="flexslider">
+        <ul class="slides">
+            <li style="background: url(static/images/banner11.jpg) no-repeat center center; background-size: cover;"><a href="#"></a></li>
+            <li style="background: url(static/images/banner2.jpg) no-repeat center center; background-size: cover;"><a href="#"></a></li>
+        </ul>
+    </div>
+    <script src='static/js/snowflakes.min.js'></script>
+    <script src="static/js/backgroup.js"></script>
+    <div class="case">
+    	<div id="particles-js" class="particles"></div>
+        <div class="case-box">
+        	<div class="title" aos="fade-up">
+            	<h1>汉服展示</h1>
+
+            </div>
+           	<div data-setting='{
+                                "width":1000,
+                                "height":450,
+                                "posterWidth":450,
+                                "posterHeight":450,
+                                "scale":0.8,
+                                "autoPlay":true,
+                                "delay":2000,
+                                "speed":300,
+                                "verticalAlign":"middle"
+                                }'  aos="fade-down" aos-delay="1500" class="pictureSlider poster-main" id="carousel" >
+                <div class="poster-btn poster-prev-btn"></div>
+                <ul class="poster-list">
+                    <li class="poster-item">
+                    	<a href="#">
+                        	<img src="static/picture/xiezhen0.jpg">
+                            <div class="caseTxt">
+                            	<h1>汉服写真</h1>
+                                <div class="linkIcon"><img src="static/picture/link.png"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="poster-item">
+                    	<a href="#">
+                        	<img src="static/picture/xiezhen.jpg">
+                            <div class="caseTxt">
+                            	<h1>汉服写真</h1>
+                                <div class="linkIcon"><img src="static/picture/link.png"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="poster-item">
+                    	<a href="#">
+                        	<img src="static/picture/xiezhen2.jpg">
+                            <div class="caseTxt">
+                            	<h1>汉服写真</h1>
+                                <div class="linkIcon"><img src="static/picture/link.png"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="poster-item">
+                    	<a href="#">
+                        	<img src="static/picture/xiezhen3.jpg">
+                            <div class="caseTxt">
+                            	<h1>汉服写真</h1>
+                                <div class="linkIcon"><img src="static/picture/link.png"></div>
+                            </div>
+                        </a>
+                    </li>
+                     <li class="poster-item">
+                    	<a href="#">
+                        	<img src="static/picture/xiezhen4.jpg">
+                            <div class="caseTxt">
+                            	<h1>汉服写真</h1>
+                                <div class="linkIcon"><img src="static/picture/link.png"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="poster-btn poster-next-btn"></div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="abImg-box" aos="fade-right" aos-duration="1000"><img src="static/picture/bg-2.jpeg"></div>
+        <div class="abTxt-box" aos="fade-left" aos-duration="1000">
+        	<h1 class="title" aos="fade-left" aos-duration="1000" aos-delay="2000">薄衾坊<span>ABOUT US</span></h1>
+        	<div class="bg-box" aos="fade-left" aos-duration="1000" aos-delay="2000">
+                <div class="abTxt">薄衾坊是汉服设计品牌，拥有一群想象力丰富的年轻设计师，同样拥有汉服的独立设计，一直以高质量产品出名，主要制作汉服、唐装、绣花鞋、绣花棉、衬裙、雪纺带、仿真丝、改良汉服等等，拥有专业的服装设计和材料检验团队，以及优质的服务。对于汉服，我们是认真的。</div>
+                <a href="about.html" class="more"><img src="static/picture/more-1.png">查看更多</a>
+            </div>
+        </div>
+        <div class="pos" aos="zoom-in">
+        	<i></i>
+            <i></i>
+            <hr id="line-1">
+            <hr id="line-2">
+            <hr id="line-3">
+            <hr id="line-4">
+        </div>
+    </div>
+    <div class="product">
+        <div class="title" aos="fade-up-right">
+            <h1>汉服摄影</h1>
+
+        </div>
+        <div class="pic-scoll">
+        	<div class="hd" aos="fade-up-right">
+            	<a class="next"></a>
+                <a class="prev"></a>
+            </div>
+        	<div class="bd" aos="fade-down" aos-delay="1000">
+            	<ul class="pic-list">
+                	<li>
+                    	<div class="item1">
+                            <a href="product.html">
+                                <img src="static/picture/copy_0.jpg">
+                                <div class="pic-txt">
+                                    <h1>汉服形制——襕衫</h1>
+                                    <p>襕衫[lán shān]是汉服形制款式之一，始现于唐，兴于宋明，古时多为士人所服。因其于衫下施横襕为裳，故称“襕衫”。是一种裳下摆接一横襕的男人长衫。多为宋明时期学子所穿着。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item1">
+                            <a href="product.html">
+                                <img src="static/picture/copy_2.jpg">
+                                <div class="pic-txt">
+                                    <h1>交领襦裙</h1>
+                                    <p>襦裙是汉服的一种，是汉服中常见的服饰。交领襦裙是其中一类，其特点是上襦为交领。交领襦裙在宋代颇为常见。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="item2">
+                            <a href="product.html">
+                                <img src="static/picture/copy_17.jpg">
+                                <div class="pic-txt">
+                                    <h1>圆领袍</h1>
+                                    <p>圆领袍，又称上领袍，是东亚（中国，日本，朝鲜）传统服饰的常见款式之一。溯其由传人以至兴盛，由军用以至民服，历史悠长，变化复杂，圆领亦称团领，实为无领型领式。衣领形似圆形，内覆硬衬，领口钉有纽扣。圆领袍是圆领子的窄袖袍，据引《唐书－舆服志》记载，天子的常服有穿赤黄袍杉，戴折上巾，系九环带，穿六合靴。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item3">
+                            <a href="product.html">
+                                <img src="static/picture/copy_1.jpg">
+                                <div class="pic-txt">
+                                    <h1>对襟半臂襦裙</h1>
+                                    <p>襦裙是中国古代汉族人民的一种传统服饰，而对襟襦裙则是襦裙的一类，其上襦为直领，衣襟呈对称状，故称对襟襦裙</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="item1">
+                            <a href="product.html">
+                                <img src="static/picture/copy_3.jpg">
+                                <div class="pic-txt">
+                                    <h1>大袄</h1>
+                                    <p>大袄是一件清朝的文物，衣袖缘及托领滚边用石青缎绣串枝花蝶纹，绛色缎挽袖绣花蝶，通身绣五彩牡丹加兰花蝴蝶纹，牡丹采用打籽绣，极其精美艳丽。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item1">
+                            <a href="product.html">
+                                <img src="static/picture/copy_4.jpg">
+                                <div class="pic-txt">
+                                    <h1>对襟直领</h1>
+                                    <p>“直领”本是衣领的样式。而尹湾二号汉墓木牍文字有“直领一领”，说明“直领”也用作服装的名称，则“直领”也为汉时女服。其样式与男服中的“方领”相似。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="item3">
+                            <a href="product.html">
+                                <img src="static/picture/copy_5.jpg">
+                                <div class="pic-txt">
+                                    <h1>齐胸襦裙</h1>
+                                    <p>齐胸襦裙是对隋唐五代时期特有的一种女子襦裙装的称呼。齐胸襦裙是汉民族传统服饰的的一种，汉晋以来裙子的裙腰束于腰上，而隋唐五代时期裙子的裙腰束得更高，很多都在胸上，一些服装史上多称之为高腰襦裙，根据现在人们对它的考证，一般改称之为齐胸襦裙，齐胸襦裙至今没有服装文物出土。齐胸襦裙属于早期复原错误的称呼，正确的叫法应为齐胸衫裙。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item2">
+                            <a href="product.html">
+                                <img src="static/picture/copy_6.jpg">
+                                <div class="pic-txt">
+                                    <h1>褙子</h1>
+                                    <p>褙子，又名背子、绰子，绣䘿。是汉民族汉服传统服饰的一种。其样式以直领对襟为主，腋下开胯，腰间用勒帛系束，下长过膝，逐渐成为后世女子的一种常礼服。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                    	<div class="item1">
+                            <a href="product.html">
+                                <img src="static/picture/copy_7.jpg">
+                                <div class="pic-txt">
+                                    <h1>斗篷</h1>
+                                    <p>披用的外衣。又名"莲蓬衣"、"一口钟"、"一裹圆"。用以防风御寒。短者曾称帔，长者又称斗篷。其通常无袖，有袖外披一般为明制大袖褙子(也做披风解)。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item1">
+                            <a href="product.html">
+                                <img src="static/picture/copy_8.jpg">
+                                <div class="pic-txt">
+                                    <h1>团扇</h1>
+                                    <p>团扇又称宫扇、纨扇。中国传统工艺品及艺术品。是一种圆形有柄的扇子。团扇起源于中国。扇子最早出现在商代，用五光十色的野鸡毛制成，称之为“障扇”。当时，扇子不是用来扇风取凉，而是作为帝王外出巡视时遮阳挡风避沙之用。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pic-more">
+            <a href="product-list.html">查看更多</a>
+            <hr><i></i>
+        </div>
+    </div>
+    <div class="news">
+    	<div class="title" aos="fade-down" aos-duration="500">
+            <h1>新闻资讯</h1>
+            <h2>THE NEWS</h2>
+        </div>
+        <div class="news-list" id="news-slides">
+
+
+        	<div class="news-slides" aos="fade-right" aos-duration="500" aos-delay="1500">
+            	<b></b>
+            	<div class="newsBtn">
+                	<a class="next"></a>
+					<a class="prev"></a>
+                </div>
+            	<div class="news-wrap">
+                	<ul>
+                    	<li>
+                            <div class="date">
+                                <h3>11-01</h3>
+                                <h4>2019</h4>
+                            </div>
+                            <div class="news-describe">
+                                <a href="news.html">
+                                    <div class="newsImg"><img src="static/picture/c1.jpg"></div>
+                                    <div class="newsTxt">
+                                        <h1>汉服里的中国文化</h1>
+                                        <p>汉服，中国的衣裳，传承四千多年，是当之无愧的国粹。
+
+汉服，大袖长摆，褒衣博带，讲究天人合一。她以平淡自然、柔美流畅、含蓄委婉、典雅清新的气质，展现柔静安逸、娴雅超脱、泰然自若的民族性格，体现中国人平和自然、与世无争、宽厚仁爱的人生境界；她又以精裁细绣展现鲜活的中华民族的生命力和审美情趣。</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                       	<li>
+                            <div class="date">
+                                <h3>11-01</h3>
+                                <h4>2019</h4>
+                            </div>
+                            <div class="news-describe">
+                                <a href="news.html">
+                                    <div class="newsImg"><img src="static/picture/c2.jpg"></div>
+                                    <div class="newsTxt">
+                                        <h1>唤醒沉睡的记忆——汉服</h1>
+                                        <p>《左传》记曰：“华夏，有章服之美谓之华，有礼仪之大故称夏。”在人们逐渐重视精神文化的今天，高耸的钢筋丛林中，开始有人发出了对衣冠上国的重新思考：那件曾以章纹标识的华美礼服，今在何方？</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="news-box" id="news-box" aos="fade-left" aos-duration="500" aos-delay="2500">
+            	<b></b>
+            	<li>
+                	<a href="news.html" class="fix">
+                    	<div class="date">
+                        	<h3>11-01</h3>
+                            <h4>2019</h4>
+                        </div>
+                        <div class="news-describe">
+                            <div class="newsTxt">
+                                <h1>汉服发型特点</h1>
+                                <p>古风汉服发型的特色在于发型与冠戴，既能增加女子仪容之俊美 ，又能体现出女子的年龄与身份特点。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                	<a href="news.html" class="fix">
+                    	<div class="date">
+                        	<h3>11-01</h3>
+                            <h4>2019</h4>
+                        </div>
+                        <div class="news-describe">
+                            <div class="newsTxt">
+                                <h1>汉服种类</h1>
+                                <p>现在常被穿的汉服款式有：曲裾、直裾、高腰襦裙、襦裙、圆领袍衫、褙子、朱子深衣、玄端等。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                	<a href="news.html" class="fix">
+                    	<div class="date">
+                        	<h3>11-01</h3>
+                            <h4>2019</h4>
+                        </div>
+                        <div class="news-describe">
+                            <div class="newsTxt">
+                                <h1>汉服配饰——扇子</h1>
+                                <p>一轮明月形的扇子称之为“纨扇”或“团扇”，也叫“合欢扇”。当时扇子有长圆、葵花、梅花、六角、匾圆之形；亦有木、竹、骨等材之柄；还有扇坠、流苏、玉器之饰。而扇面上常绣以山水花卉，款式争奇斗艳，闺阁仕女手摇团扇，清风徐来，不但可以平添主人娴雅文静的仪态，又能体现女性天真活泼的个性。</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="pic-more news-more">
+            	<a href="product-list.html">查看更多</a>
+            	<hr><i></i>
+       		</div>
+       </div>
+
+    </div>
+    <!-- 代码部分begin -->
+<div id="rightArrow"><a href="javascript:;" title="在线客户"></a></div>
+<div id="floatDivBoxs">
+  <div class="floatDtt">在线客服</div>
+  <div class="floatShadow">
+    <ul class="floatDqq">
+      <li><a target="_blank" href="tencent://message/?uin=1234567890&Site=sc.chinaz.com&Menu=yes"><img src="images/qq.png" align="absmiddle">在线客服1号</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=1234567890&Site=sc.chinaz.com&Menu=yes"><img src="images/qq.png" align="absmiddle">在线客服2号</a></li>
+      <li><a target="_blank" href="tencent://message/?uin=1234567890&Site=sc.chinaz.com&Menu=yes"><img src="images/qq.png" align="absmiddle">在线客服3号</a></li>
+    </ul>
+    <div class="floatDtxt">热线电话</div>
+    <div class="floatDtel"><img src="images/online_phone.jpg" width="155" height="45" alt=""></div>
+    <div class="floatImg"><img src="images/erweima.jpg" width="100%">微信公众账号</div>
+  </div>
+  <div class="floatDbg"></div>
+</div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+$(function(){
+    var flag=0;
+    $('#rightArrow').on("click",function(){
+        if(flag==1){
+            $("#floatDivBoxs").animate({right: '-175px'},300);
+            $(this).animate({right: '-5px'},300);
+            $(this).css('background-position','-50px 0');
+            flag=0;
+        }else{
+            $("#floatDivBoxs").animate({right: '0'},300);
+            $(this).animate({right: '170px'},300);
+            $(this).css('background-position','0px 0');
+            flag=1;
+        }
+    });
+});
+</script>
+<!-- 代码部分end -->
+    <div class="contact">
+    	<div class="contact-box">
+        	<div class="link" aos="fade-right" aos-duration="1000">
+            	<h1>友情链接</h1>
+                <div class="txtMarquee-top">
+					<div class="bd">
+                        <ul>
+                            <li><a href="http://www.aihanfu.com/zhishi/wenhua/" title="爱汉服">爱汉服</a></li>
+                            <li><a href="https://www.hanfuhui.com/" title="汉服荟">汉服荟</a></li>
+                            <li><a href="#" title="官方链接3">官方链接3</a></li>
+
+
+                        </ul>
+            		</div>
+            	</div>
+            </div>
+            <div class="contactTxt" aos="fade-right" aos-duration="1000" aos-delay="2000">
+            	名称：广东农工商职业技术学院 <br/>
+
+                联系人：陆总 <br/>
+
+                电话：400-88-888 <br/>
+
+                地址：广东省广州市增城区中新镇风光路393号<br/>
+
+                邮箱：zyy123340@163.com <br/>
+
+                网址：http://www.boqin.com <br/>
+                <div class="scan">
+                	<img src="static/picture/saom-1.png">
+                </div>
+            </div>
+            <form class="msg" aos="fade-right" aos-duration="1000" aos-delay="3000">
+            	<ul>
+                	<li>姓名<input type="text" name="" placeholder="请输入姓名" onFocus="bgChange();"></li>
+                    <li>电话<input type="text" name="" placeholder="请输入姓名"></li>
+                   	<textarea rows="4" placeholder="请输入留言内容"></textarea>
+                    <li class="verp">验证码<input type="text" name="">
+                    	<div class="verpImg"><img src="static/picture/ver.jpg"></div>
+                    </li>
+                </ul>
+                <button type="submit">提  交</button>
+            </form>
+        </div>
+    	<div class="footer">
+        	版权归人类的本质是鸽子精所有 <br/>
+            访问统计：浏览总量<span>1000</span>次 /今日浏览<span>32</span>次 /今日独立访客<span>666</span>位    建议 firefox8.0以上浏览器浏览本站 <br/>
+            <a href="#">即时通管理</a>    <a href="#">后台登录</a> <br/>
+            <a href="">触屏版</a> 丨 <a href="">电脑版</a> <br/>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="static/js/particles.min.js"></script>
+<script type="text/javascript" src="static/js/app.js"></script>
+<script>
+/* 粒子动画应用 */
+	var count_particles, stats, update;
+	stats = new Stats;
+	stats.setMode(0);
+
+	stats.domElement.style.position = 'absolute';
+	stats.domElement.style.left = '0px';
+	stats.domElement.style.top = '0px';
+	document.body.appendChild(stats.domElement);
+	count_particles = document.querySelector('.js-count-particles');
+	update = function() {
+		stats.begin();
+		stats.end();
+		if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+			count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+		}
+		requestAnimationFrame(update);
+	};
+	requestAnimationFrame(update);
+/*-- end --*/
+</script>
+
+<script>
+  	AOS.init({
+  	duration: 1000,
+  	easing: 'ease-out-back',
+  	delay: 1000,
+});
+
+//判断鼠标滚动距离
+	$(window).scroll(function() {
+		// 当滚动超过80时加背景
+		if ($(this).scrollTop() >= 80) {
+			$(".header").css("background","#000");
+			var h;
+    		h = $(".about").offset().top;
+			if($(this).scrollTop() > (h - 200)){
+				$(".pos i").eq(0).animate({right:'100%'},3000);
+				$(".pos i").eq(1).animate({right:0},3000);
+			}
+		}
+		else{
+			$(".header").css("background","none");
+		}
+	});
+
+var newsHeight = document.getElementById("news-box").clientHeight;
+document.getElementById("news-slides").style.height = newsHeight + "px";
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿
+img {
+    border: 0;
+    vertical-align: middle
+}
+p {
+ display: block;
+ }
+ul {
+    list-style: none;
+ }
+a {
+    color: #a6a6a6;
+    text-decoration: none;
+    transition: All 0.5s ease;
+    -webkit-transition: All 0.5s ease;
+    -moz-transition: All 0.5s ease;
+    -o-transition: All 0.5s ease; }
+a:hover { color: #000; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+h3{color：#000;font-size:24px;}
+
+.blogitem { width: 730px; background: #fff; float: right }
+.blogitem article {
+ border-bottom: #F4F3EF 40px solid;
+ margin-top: 5%;
+}
+.blogitem article { border: #ccc 2px solid; }
+.title { background: url(../images/titlebg.png) no-repeat 5% 80%; font-size: 20px; line-height: 28px; display: inline-block; padding: 38px 60px 8px 80px; border-bottom: 1px solid #e2e2e2; width: 100%; }
+.title a { color: #454545; }
+.title a:hover { padding: 20px }
+.text { font-size: 14px; padding: 20px 40px; }
+.text p { line-height: 24px; margin-bottom: 10px }
+.textimg { text-align: center }
+.textimg img { max-width: 500px; width:expression(document.body.clientWidth > 500? "500px": "auto" );}/*for ie6*/
+.textfoot { padding: 20px 60px; border-top: 1px solid #dddcdb; text-align: right; box-shadow: #999 2px 2px 3px }
+.textfoot a { margin-left: 10px; }
+.pages { padding: 0 60px 25px; background: #F4F3EF; text-align: right }
+.pages span { background: #f16e50; color: #fff; }
+.pages a { background: #fff; color: #454545; padding: 5px 8px; border: none; margin: 0 0 0 5px; }
+.pages span { padding: 5px 8px; border: none; margin: 0 0 0 5px; }
+.pages a:hover { background: #CCC }
+

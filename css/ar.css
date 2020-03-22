@@ -1,0 +1,197 @@
+/*
+* @Author: Marte
+* @Date:   2019-12-27 16:10:19
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-12-27 20:11:20
+*/
+
+body {
+   font: 15px "微软雅黑";
+   color: #000;
+   line-height: 1.5;
+}
+article {;
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
+   margin-top:5px;
+}
+img {
+    border: 0;
+    display: block
+}
+.logo {
+    float: left;
+    font-size: 22px
+}
+.banner1{
+    width:100%;
+    height:700px;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.clear {
+    clear: both;
+}
+.leftbox{
+    width:74%;
+    float:right;
+    overflow:hidden;;
+}
+.rightbox{
+    width:25%;
+    float:left;
+    font-size: 12px;
+    overflow:hidden;
+}
+.articl{
+    background:#fff;
+    border:solid 1px #272727;
+    border-radius:10px;
+    overflow:hidden;
+    margin-top:10px;
+}
+.ar_title {
+    text-align: center;
+    position: relative;
+    margin: 20px;
+}
+.ar_title:before {
+    content: "";
+    width: 25%;
+    height: 2px;
+    background: #000;
+    position: relative;
+    left: 0; bottom: 6px
+}
+.ar_title:after {
+    content: "";
+    width: 25%;
+    height: 2px;
+    background: #000;
+    position: relative;
+    right: 0; bottom: 6px
+}
+.ar_con{
+    line-height:30px;
+    padding:10px;
+}
+.ar_con p{
+    background: #f6f6f6;
+    margin: 5px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 1px 0px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+}
+.avatar img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+}
+.textimg img{
+    width:500px;
+    magin:auto;
+    display:table-cell;
+    clear: both;
+    display: block;
+}
+
+.weixin {
+    width: 100%;
+    background: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0
+}
+.weixin img {
+    width: 100%;
+    height: auto
+}
+.infos {
+    width: 100%;
+    background: #FFF;
+    border:solid 1px #272727;
+    overflow: hidden;
+
+    border-radius:10px;
+    border-right:solid 1px #272727;
+     box-sizing:border-box;
+}
+.newsview {
+    padding: 20px;
+
+}
+.intitle {
+    line-height: 24px;
+    text-align: -webkit-center;
+    height: 24px;
+    font-size: 20px;
+    /*border-bottom: #5d0e0d 1.5px solid;*/
+    margin-bottom:5px; 
+}
+.intitle a {
+    font-weight: normal;
+}
+.news_infos {
+    line-height: 24px;
+    text-align: justify;
+    padding: 20px 0
+}
+.news_infos p {
+    margin-bottom: 10px
+}
+.news_infos img {
+    max-width: 650px;
+    height: auto;
+}
+.share {
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    width: 100%;
+}
+.nextinfo {
+    line-height: 24px;
+    width: 100%;
+    background: #272727;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0
+}
+.nextinfo p {
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+.nextinfo a:hover {
+    color: #000;
+    text-decoration: underline
+}
+.news_pl {
+    margin: 10px 0;
+    width: 100%;
+    background: #f0ecec;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0 ;
+}
+.news_pl h2 {
+    background: url(../../static/images/liuyan.png) no-repeat left 10px center;
+    border-bottom: #000 2px solid;
+    line-height: 40px; font-size: 14px;
+    padding-left: 30px;
+    color: #000 ;
+    text-align: center;
+}
+
